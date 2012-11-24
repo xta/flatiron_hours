@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Is the Flatiron School Open?</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link href="/application.css" media="all" rel="stylesheet" type="text/css">
+    <link href="/application.js" media="all" rel="javascript" type="text/javascript">
+  </head>
+  <body>
+    <header>Avi Says...</header>
+    <div id="wrapper">
+      <div id="submit-status">
+        <form name="input" action="/" method="post">
+          <input type="radio" name="flatironschool[status]" value="1">Open<br>
+          <input type="radio" name="flatironschool[status]" value="0">Closed<br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div id="img_container">
+        <img src="/images/avi_for_website.png">
+        <div id="status_box">
+          <h2 id="status"><%= @status %></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <span>All Your Rights <code>Belongs_to</code> Us</span>
+  </footer>
+</html>
