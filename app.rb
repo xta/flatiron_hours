@@ -8,9 +8,6 @@ class Flatironschool < ActiveRecord::Base
   
   attr_accessible :status
 
-  # def current_status
-  #   @stat.status == true ? "Fuck Yes It Is" : "Nope" 
-  # end
 end
 
 #routes

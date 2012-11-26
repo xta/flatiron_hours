@@ -129,7 +129,8 @@ header  {
 
 #submit-status form {
 /*  visibility: hidden;
-*/}
+*/  display: none;
+}
 
 #wrapper {
   postion: relative;
