@@ -162,9 +162,9 @@ header  {
 #status_box:before {
   content: "";
   position: absolute;
-  bottom: -75px;
-  right: 0;
-  border-width: 0 0 75px 75px;
+  bottom: -50px;
+  left: 25px;
+  border-width: 0 0 50px 50px;
   border-style: solid;
   border-color: transparent #C91F2C;
 }
