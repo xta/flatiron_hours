@@ -28,6 +28,10 @@ post "/" do
     end
 end
 
+get '/status.json' do
+  content_type :json
+  {:status => "#{Flatironschool.last.status}"}.to_json
+end
 
 
 

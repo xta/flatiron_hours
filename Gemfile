@@ -7,7 +7,7 @@ ruby '1.9.3'
 gem 'sinatra', '~> 1.3.3'
 gem 'activerecord'
 gem 'sinatra-activerecord'
-
+gem 'json'
 group :development, :test do 
   gem 'sqlite3'
   gem 'foreman'
