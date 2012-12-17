@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
   $(document).keyup(function(e) {
       if (e.keyCode == 70 ) {
@@ -31,6 +29,13 @@ $(document).ready(function() {
 
       }
   });
+
+
+  $('.tebow .input-option').click(function(event) {
+      $('#selected_choice').val(event.target.id);
+      $('#submit_selected').submit();
+  })
+
 });
 
 

@@ -21,6 +21,16 @@ get "/" do
   erb :index
 end
 
+get "/timtebow" do
+  @stat = Flatironschool.last
+    if @stat.status == true
+      @status = "open"
+    else
+      @status = "closed"
+    end
+  erb :timtebow
+end
+
 post "/" do
   @flatironschool = Flatironschool.create(params[:flatironschool])
     if @flatironschool.save

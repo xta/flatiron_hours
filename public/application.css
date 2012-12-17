@@ -212,3 +212,28 @@ footer a {
 
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+.input-option {
+  font-size: 400%;
+  margin-bottom: 30px;
+}
+
+.tebow input {
+  display: none;
+}
+
+.tebow form {
+  text-align: center;
+}
+
+.input-option:hover {
+  color: green;
+}
+
+.input-option:hover:before {
+  content:"> ";
+}
+
+.input-option:hover:after {
+  content:" <";
+}
